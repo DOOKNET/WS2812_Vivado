@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RZ_Code
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RGB_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/TestBeach/tb_RZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
