@@ -2,12 +2,20 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
 # IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
-# Start of session at: Wed Jan 31 13:22:36 2018
-# Process ID: 13600
+# Start of session at: Fri Feb 02 18:45:33 2018
+# Process ID: 9184
 # Current directory: E:/Workspace/Vivado_16.4/2018_1_31_WS2812
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6236 E:\Workspace\Vivado_16.4\2018_1_31_WS2812\WS2812.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12160 E:\Workspace\Vivado_16.4\2018_1_31_WS2812\WS2812.xpr
 # Log file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/vivado.log
 # Journal file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.xpr
+launch_simulation
+source tb_RZ.tcl
+add_wave {{/tb_RZ/TOP_inst/RZ_Code_inst1/clk}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/rst_n}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/RGB}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/tx_en}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/tx_done}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/RZ_data}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/cnt}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/i}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/symbol}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/symbol_r}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/RGB_RZ}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/data_out}} 
+relaunch_sim
+run 2 ms
+add_wave {{/tb_RZ/TOP_inst/RGB_Control_inst0/tx_en}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/RGB}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/cnt}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/RGB_reg}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/k}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/tx_en_r}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/tx_done_r}} 
+restart
+run 2 ms

@@ -2,10 +2,10 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
 # IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
-# Start of session at: Wed Jan 31 13:22:36 2018
-# Process ID: 13600
+# Start of session at: Fri Feb 02 18:45:33 2018
+# Process ID: 9184
 # Current directory: E:/Workspace/Vivado_16.4/2018_1_31_WS2812
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6236 E:\Workspace\Vivado_16.4\2018_1_31_WS2812\WS2812.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12160 E:\Workspace\Vivado_16.4\2018_1_31_WS2812\WS2812.xpr
 # Log file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/vivado.log
 # Journal file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812\vivado.jou
 #-----------------------------------------------------------
@@ -16,5 +16,118 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Softwares/Vivado/Vivado/2016.4/data/ip'.
-exit
-INFO: [Common 17-206] Exiting Vivado at Wed Jan 31 13:23:23 2018...
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_RZ' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav'
+"xvlog -m64 --relax -prj tb_RZ_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RZ_Code
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RGB_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/TestBeach/tb_RZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Softwares/Vivado/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 865c2cc94ddd4dcba93ca6e7b48bc4a8 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_RZ_behav xil_defaultlib.tb_RZ xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" Line 1. Module TOP doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" Line 1. Module RGB_Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" Line 5. Module RZ_Code doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" Line 1. Module TOP doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" Line 1. Module RGB_Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" Line 5. Module RZ_Code doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.RGB_Control
+Compiling module xil_defaultlib.RZ_Code
+Compiling module xil_defaultlib.TOP
+Compiling module xil_defaultlib.tb_RZ
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_RZ_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_RZ_behav -key {Behavioral:sim_1:Functional:tb_RZ} -tclbatch {tb_RZ.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source tb_RZ.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_RZ_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 782.430 ; gain = 5.531
+add_wave {{/tb_RZ/TOP_inst/RZ_Code_inst1/clk}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/rst_n}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/RGB}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/tx_en}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/tx_done}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/RZ_data}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/cnt}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/i}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/symbol}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/symbol_r}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/RGB_RZ}} {{/tb_RZ/TOP_inst/RZ_Code_inst1/data_out}} 
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_RZ' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav'
+"xvlog -m64 --relax -prj tb_RZ_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RZ_Code
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RGB_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/TestBeach/tb_RZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Softwares/Vivado/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 865c2cc94ddd4dcba93ca6e7b48bc4a8 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_RZ_behav xil_defaultlib.tb_RZ xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" Line 1. Module TOP doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" Line 1. Module RGB_Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" Line 5. Module RZ_Code doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" Line 1. Module TOP doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" Line 1. Module RGB_Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" Line 5. Module RZ_Code doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.RGB_Control
+Compiling module xil_defaultlib.RZ_Code
+Compiling module xil_defaultlib.TOP
+Compiling module xil_defaultlib.tb_RZ
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_RZ_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+run 2 ms
+add_wave {{/tb_RZ/TOP_inst/RGB_Control_inst0/tx_en}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/RGB}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/cnt}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/RGB_reg}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/k}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/tx_en_r}} {{/tb_RZ/TOP_inst/RGB_Control_inst0/tx_done_r}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 2 ms
