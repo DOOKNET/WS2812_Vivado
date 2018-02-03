@@ -1,6 +1,6 @@
 `timescale	1ns/1ps
 
-module	tb_RZ();
+module	tb_TOP();
 
 reg 	sclk;
 reg 	rst_n;
@@ -16,7 +16,7 @@ initial	begin
 end
 
 //---------------------------//
-TOP_r0			TOP_r0_inst(
+TOP				TOP_inst(
 	.clk		(sclk),
 	.rst_n		(rst_n),
 	.RZ_data	(RZ_data)
