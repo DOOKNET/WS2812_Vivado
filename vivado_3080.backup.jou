@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Feb 03 22:28:05 2018
+# Process ID: 3080
+# Current directory: E:/Workspace/Vivado_16.4/2018_1_31_WS2812
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10584 E:\Workspace\Vivado_16.4\2018_1_31_WS2812\WS2812.xpr
+# Log file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/vivado.log
+# Journal file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.xpr
+add_files -norecurse {E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v}
+add_files -norecurse {E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TOP [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TOP [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+remove_files  {E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v}

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Feb 03 21:41:38 2018
+# Process ID: 11700
+# Current directory: E:/Workspace/Vivado_16.4/2018_1_31_WS2812
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12100 E:\Workspace\Vivado_16.4\2018_1_31_WS2812\WS2812.xpr
+# Log file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/vivado.log
+# Journal file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.xpr
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+remove_files  {E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v}
+update_compile_order -fileset sources_1
+remove_files  -fileset sim_1 E:/Workspace/Vivado_16.4/2018_1_31_WS2812/TestBeach/tb_RZ.v
+update_compile_order -fileset sim_1

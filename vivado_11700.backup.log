@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Feb 03 21:41:38 2018
+# Process ID: 11700
+# Current directory: E:/Workspace/Vivado_16.4/2018_1_31_WS2812
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12100 E:\Workspace\Vivado_16.4\2018_1_31_WS2812\WS2812.xpr
+# Log file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/vivado.log
+# Journal file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Softwares/Vivado/Vivado/2016.4/data/ip'.
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v" into library work [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "negedge". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:33]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:39]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:40]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:41]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:42]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:48]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:54]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:58]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:61]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v" into library work [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "negedge". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:23]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "negedge". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:36]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:48]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:55]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:63]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:70]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:76]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:81]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:84]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:93]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:97]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:102]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:104]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:107]
+[Sat Feb 03 21:50:27 2018] Launched synth_1...
+Run output will be captured here: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.runs/synth_1/runme.log
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v" into library work [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "negedge". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:33]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:39]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:40]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:41]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:42]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:48]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:54]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:58]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:61]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v" into library work [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "negedge". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:23]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "negedge". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:36]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:48]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:55]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:63]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:70]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:76]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:81]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:84]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:93]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:97]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:102]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:104]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:107]
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v" into library work [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v:1]
+[Sat Feb 03 22:00:44 2018] Launched synth_1...
+Run output will be captured here: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.runs/synth_1/runme.log
+remove_files  {E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v}
+update_compile_order -fileset sources_1
+remove_files  -fileset sim_1 E:/Workspace/Vivado_16.4/2018_1_31_WS2812/TestBeach/tb_RZ.v
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 03 22:28:01 2018...

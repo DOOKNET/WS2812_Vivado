@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
-verilog xil_defaultlib  "../../../Design/Code/RZ_Code.v"
-verilog xil_defaultlib  "../../../Design/Code/RGB_Control.v"
-verilog xil_defaultlib  "../../../Design/Code/TOP.v"
+verilog xil_defaultlib  "../../../Design/Code/RZ_Code_r0.v"
+verilog xil_defaultlib  "../../../Design/Code/RGB_Control_r0.v"
+verilog xil_defaultlib  "../../../Design/Code/TOP_r0.v"
 verilog xil_defaultlib  "../../../TestBeach/tb_RZ.v"
 
 # compile glbl module

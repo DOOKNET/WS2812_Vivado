@@ -5,17 +5,17 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" Line 1. Module TOP doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" Line 1. Module RGB_Control doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" Line 5. Module RZ_Code doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP.v" Line 1. Module TOP doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control.v" Line 1. Module RGB_Control doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code.v" Line 5. Module RZ_Code doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v" Line 1. Module TOP_r0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v" Line 1. Module RGB_Control_r0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v" Line 1. Module RZ_Code_r0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v" Line 1. Module TOP_r0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v" Line 1. Module RGB_Control_r0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v" Line 1. Module RZ_Code_r0 doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.RGB_Control
-Compiling module xil_defaultlib.RZ_Code
-Compiling module xil_defaultlib.TOP
+Compiling module xil_defaultlib.RGB_Control_r0
+Compiling module xil_defaultlib.RZ_Code_r0
+Compiling module xil_defaultlib.TOP_r0
 Compiling module xil_defaultlib.tb_RZ
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot tb_RZ_behav

@@ -16,7 +16,7 @@ initial	begin
 end
 
 //---------------------------//
-TOP				TOP_inst(
+TOP_r0			TOP_r0_inst(
 	.clk		(sclk),
 	.rst_n		(rst_n),
 	.RZ_data	(RZ_data)

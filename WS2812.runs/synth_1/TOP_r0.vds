@@ -1,0 +1,540 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Feb 03 23:28:58 2018
+# Process ID: 20072
+# Current directory: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.runs/synth_1
+# Command line: vivado.exe -log TOP_r0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_r0.tcl
+# Log file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.runs/synth_1/TOP_r0.vds
+# Journal file: E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP_r0.tcl -notrace
+Command: synth_design -top TOP_r0 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22256 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 296.707 ; gain = 86.344
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP_r0' [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v:1]
+INFO: [Synth 8-638] synthesizing module 'RGB_Control_r0' [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:1]
+INFO: [Synth 8-256] done synthesizing module 'RGB_Control_r0' (1#1) [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RGB_Control_r0.v:1]
+INFO: [Synth 8-638] synthesizing module 'RZ_Code_r0' [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:1]
+WARNING: [Synth 8-5788] Register tx_done_reg in module RZ_Code_r0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:53]
+WARNING: [Synth 8-5788] Register RGB_RZ_reg in module RZ_Code_r0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:59]
+WARNING: [Synth 8-5788] Register tx_en_reg in module RZ_Code_r0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:60]
+INFO: [Synth 8-256] done synthesizing module 'RZ_Code_r0' (2#1) [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/RZ_Code_r0.v:1]
+INFO: [Synth 8-256] done synthesizing module 'TOP_r0' (3#1) [E:/Workspace/Vivado_16.4/2018_1_31_WS2812/Design/Code/TOP_r0.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 333.223 ; gain = 122.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 333.223 ; gain = 122.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 333.223 ; gain = 122.859
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "data_ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RGB_RZ" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RGB_RZ" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 365.988 ; gain = 155.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 6     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     24 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 16    
+	   3 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RGB_Control_r0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 6     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     24 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+Module RZ_Code_r0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 15    
+	   4 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "RGB_Control_r0_inst0/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RGB_Control_r0_inst0/data_ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/step" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/RGB_RZ" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/RGB_RZ" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RZ_Code_r0_inst1/tx_done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][23] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][23] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][23] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][18] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][18] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][16] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][16] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[4][4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[3][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[2][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[1][4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\RGB_Control_r0_inst0/RGB_reg_reg[0][4] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[23]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[21]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[22]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[20]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[21]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[7]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[19]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[17]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[18]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[16]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[17]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[16]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[15]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[13]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[14]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[8]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[13]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[11]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[12]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[10]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[6]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[5]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[4]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[3]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RGB_Control_r0_inst0/RGB_reg[2]' (FDCE) to 'RGB_Control_r0_inst0/RGB_reg[0]'
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][23]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][22]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][21]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][20]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][19]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][18]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][17]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][16]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][15]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][14]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][13]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][12]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][11]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][10]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][9]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][8]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][7]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][6]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][5]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][4]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][3]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][2]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][1]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[4][0]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][23]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][22]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][21]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][20]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][19]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][18]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][17]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][16]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][15]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][14]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][13]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][12]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][11]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][10]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][9]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][8]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][7]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][6]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][5]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][4]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][3]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][2]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][1]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[0][0]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][23]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][22]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][21]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][20]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][19]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][18]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][17]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][16]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][15]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][14]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][13]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][12]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][11]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][10]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][9]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][8]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][7]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][6]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][5]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][4]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][3]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][2]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][1]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[1][0]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][23]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][22]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][21]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][20]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][19]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][18]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][17]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][16]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][15]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][14]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][13]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][12]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][11]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][10]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][9]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][8]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][7]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][6]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][5]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][4]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][3]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][2]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][1]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[2][0]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[3][23]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[3][22]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[3][21]) is unused and will be removed from module TOP_r0.
+WARNING: [Synth 8-3332] Sequential element (RGB_Control_r0_inst0/RGB_reg_reg[3][20]) is unused and will be removed from module TOP_r0.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 455.035 ; gain = 244.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 455.035 ; gain = 244.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |    63|
+|4     |LUT2   |    40|
+|5     |LUT3   |    42|
+|6     |LUT4   |    22|
+|7     |LUT5   |     9|
+|8     |LUT6   |    35|
+|9     |FDCE   |    85|
+|10    |FDRE   |     3|
+|11    |IBUF   |     2|
+|12    |OBUF   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------+---------------+------+
+|      |Instance               |Module         |Cells |
++------+-----------------------+---------------+------+
+|1     |top                    |               |   319|
+|2     |  RGB_Control_r0_inst0 |RGB_Control_r0 |   140|
+|3     |  RZ_Code_r0_inst1     |RZ_Code_r0     |   175|
++------+-----------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 123 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 456.598 ; gain = 234.723
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 456.598 ; gain = 246.234
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+168 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 555.844 ; gain = 340.891
+INFO: [Common 17-1381] The checkpoint 'E:/Workspace/Vivado_16.4/2018_1_31_WS2812/WS2812.runs/synth_1/TOP_r0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 555.844 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 03 23:29:22 2018...
