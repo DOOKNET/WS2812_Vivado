@@ -2,8 +2,8 @@ module RGB_Control(
 	input	clk,
 	input	rst_n,
 	input	tx_done,
-	output	reg	data_ready,
-	output	reg	data_valid,
+	output	reg	data_ready,		//拉高时，数据准备完毕，开始运行
+	output	reg	data_valid,		//拉高时，开始RESET
 	output	reg	[23:0]	RGB
 );
 
@@ -13,7 +13,7 @@ reg		[2:0]	i;
 reg		[31:0]	cnt;
 //------------------------------//
 
-//------------------------------//
+//---------控制ready信号--------//
 always @(posedge clk or negedge rst_n) begin
 	if(!rst_n)	begin
 		cnt <= 0;
@@ -37,7 +37,7 @@ always @(posedge clk or negedge rst_n) begin
 end
 //------------------------------//
 
-//------------------------------//
+//---------数据切换模块----------//
 always @(posedge clk or negedge rst_n) begin
 	if(!rst_n || !data_ready)	begin
 		i <= 0;
